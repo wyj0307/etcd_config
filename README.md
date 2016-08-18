@@ -1,2 +1,8 @@
 # etcd_config
-use etcd to load nomal config in server
+用etcd动态加载数据到服务器中，实现服务器配置数据统一管理，实时更新
+
+# 功能
+实现etcd上配置的预加载到内存中，etcd上的数据发生 增，删，改 都可以实时监听到，自动保持本地缓存与etcd上的同步
+
+# global
+一个测试模块
